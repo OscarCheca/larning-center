@@ -5,7 +5,7 @@ import {ConfirmDialog as PvConfirmDialog} from "primevue";
 import LanguageSwitcher from "./language-switcher.vue";
 import FooterContent from "./footer-content.vue";
 
-const {t} = useI18n();>
+const {t} = useI18n();
 const drawer = ref(false);
 const toggleDrawer = () => {
   drawer.value = !drawer.value;
@@ -13,7 +13,7 @@ const toggleDrawer = () => {
 const items = [
   { label: 'option,home', to: '/home'},
   { label: 'option,about', to: '/about'},
-];]
+];
 
 </script>
 
