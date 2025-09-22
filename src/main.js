@@ -4,8 +4,8 @@ import App from './app.vue'
 import i18n from './i18n.js';
 import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
-import PrimeVue from 'priemevue/config';
-import Material from '@primeuix/themes/material;'
+import PrimeVue from 'primevue/config';
+import Material from '@primeuix/themes/material';
 import {
     Button, Card, Checkbox, Column,
     ConfirmationService, ConfirmDialog, DataTable, Dialog,
